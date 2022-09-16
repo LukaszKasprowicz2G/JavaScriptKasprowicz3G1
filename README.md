@@ -1,1 +1,0 @@
-# JavaScriptKasprowicz3G1
