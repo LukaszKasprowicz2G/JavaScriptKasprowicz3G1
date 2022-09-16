@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Przyklad nr 1</title>
+	<script language="JavaScript">
+	function WinOpen_kasprowicz()
+		{
+		window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=400,width=600,top=200,left=200");
+		}
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen_kasprowicz(' ')">
+	</form>
+	<form>
+		<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+	</form>
+</body>
+</html>

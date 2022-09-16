@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Przyklad nr 2</title>
+	<script language="JavaScript">
+	function WinOpen_kasprowicz1()
+		{
+		window.open("grafika1.html","grafika1","toolbar=no,directories=no,menubar=no,height=350,width=200,top=400,left=200");
+		}
+	function WinOpen_kasprowicz2()
+		{
+		window.open("grafika2.html","grafika2","toolbar=no,directories=no,menubar=no,height=350,width=200,top=300,left=450");
+		}
+	function WinOpen_kasprowicz3()
+		{
+		window.open("grafika3.html","grafika3","toolbar=no,directories=no,menubar=no,height=350,width=200,top=200,left=700");
+		}
+	function WinOpen_kasprowicz4()
+		{
+		window.open("grafika4.html","grafika4","toolbar=no,directories=no,menubar=no,height=350,width=200,top=100,left=950");
+		}
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<input type="button" name="przycisk" value="grafika1" onclick="WinOpen_kasprowicz1(' ')">
+		<input type="button" name="przycisk" value="grafika2" onclick="WinOpen_kasprowicz2(' ')">
+		<input type="button" name="przycisk" value="grafika3" onclick="WinOpen_kasprowicz3(' ')">
+		<input type="button" name="przycisk" value="grafika4" onclick="WinOpen_kasprowicz4(' ')">
+	</form>
+	<form>
+		<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+	</form>
+</body>
+</html>

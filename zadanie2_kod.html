@@ -1,0 +1,127 @@
+<p>zadanie2.html</p>
+<textarea cols=170 rows=40>
+<html>
+<head>
+	<title>Przyklad nr 2</title>
+	<script language="JavaScript">
+	function WinOpen_kasprowicz1()
+		{
+		window.open("grafika1.html","grafika1","toolbar=no,directories=no,menubar=no,height=350,width=200,top=400,left=200");
+		}
+	function WinOpen_kasprowicz2()
+		{
+		window.open("grafika2.html","grafika2","toolbar=no,directories=no,menubar=no,height=350,width=200,top=300,left=450");
+		}
+	function WinOpen_kasprowicz3()
+		{
+		window.open("grafika3.html","grafika3","toolbar=no,directories=no,menubar=no,height=350,width=200,top=200,left=700");
+		}
+	function WinOpen_kasprowicz4()
+		{
+		window.open("grafika4.html","grafika4","toolbar=no,directories=no,menubar=no,height=350,width=200,top=100,left=950");
+		}
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<input type="button" name="przycisk" value="grafika1" onclick="WinOpen_kasprowicz1(' ')">
+		<input type="button" name="przycisk" value="grafika2" onclick="WinOpen_kasprowicz2(' ')">
+		<input type="button" name="przycisk" value="grafika3" onclick="WinOpen_kasprowicz3(' ')">
+		<input type="button" name="przycisk" value="grafika4" onclick="WinOpen_kasprowicz4(' ')">
+	</form>
+	<form>
+		<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+	</form>
+</body>
+</html>
+</textarea>
+
+<p>grafika1.html</p>
+<textarea cols=170 rows=17>
+<html>
+<head>
+	<script type="text/javascript">
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
+</head>
+<body>
+	<p>CZAS COŚ ZJEŚĆ</p>
+	<img style="width: 100%;" src="kot1.jpg"/>
+	<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+</body>
+</html>
+</textarea>
+
+<p>grafika2.html</p>
+<textarea cols=170 rows=17>
+<html>
+<head>
+	<script type="text/javascript">
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
+</head>
+<body>
+	<p>TO WYGLĄDA PYSZNIE</p>
+	<img style="width: 100%;" src="kot2.jpg"/>
+	<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+</body>
+</html>
+</textarea>
+
+<p>grafika3.html</p>
+<textarea cols=170 rows=17>
+<html>
+<head>
+	<script type="text/javascript">
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
+</head>
+<body>
+	<p>MUSZE ZJESC ZANIM KTOS ZAUWAZY</p>
+	<img style="width: 100%;" src="kot3.jpg"/>
+	<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+</body>
+</html>
+</textarea>
+
+<p>grafika4.html</p>
+<textarea cols=170 rows=17>
+<html>
+<head>
+	<script type="text/javascript">
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
+</head>
+<body>
+	<p>MOŻNA DALEJ IŚĆ SPAĆ</p>
+	<img style="width: 100%;" src="kot4.jpg"/>
+	<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+</body>
+</html>
+</textarea>
+
+<script>
+function okno_zamknij_kasprowicz()
+	{
+	window.close()
+	}
+</script>
+<form>
+	<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+</form>
