@@ -3,6 +3,11 @@
 	<title>Przyklad nr 3</title>
 </head>
 <body>
+<ul>
+	<li><p>Okienko <b>alert</b> - wyświetla okienko dialogowe z informacją i przyciskiem OK</p></li>
+	<li><p>Okienko <b>prompt</b> - generuje okno, w którym użytkownik może wpisać wartość, zwracaną następnie do programu</p></li>
+	<li><p>Okienko <b>confirm</b> - służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm)</p></li>
+</ul>
 <form>
 	<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
 </form>
