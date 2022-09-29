@@ -1,13 +1,49 @@
 <html>
 <head>
 	<title>Przyklad nr 3</title>
+	<script language="JavaScript">
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
 </head>
 <body>
+<ol>
+<li><b>Rodzaje okieniek:</b>
 <ul>
 	<li><p>Okienko <b>alert</b> - wyświetla okienko dialogowe z informacją i przyciskiem OK</p></li>
 	<li><p>Okienko <b>prompt</b> - generuje okno, w którym użytkownik może wpisać wartość, zwracaną następnie do programu</p></li>
 	<li><p>Okienko <b>confirm</b> - służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm)</p></li>
+</ul></li>
+<li><b>Konwersja liczb:</b>
+<p>Wczytanie zmiennej z użyciem <b>prompt</b> wykonywane jest jako ciąg znaków dlatego konieczna jest konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia</p>
+<ul>
+	<li><p><u>parseFloat(zmienna)</u> - konwersja zmiennej do typu float</p></li>
+	<li><p><u>parseInt(zmienna)</u> - konwersja zmiennej do typu int (liczbowego)</p></li>
+	<li><p><u>toString(zmienna)</u> - konwersja zmiennej do typu łańcuchowego</p></li>
+</ul></li>
+<ul>
+	<li><p></p></li>
+</ul></li>
+<li><b>Typy zmiennych w Javascript:</b>
+W JavaScript nie ma możliwości definiowania różnych typów zmiennych tak jak w C++, typy zmiennych są definiowane w trakcie ich przypisywania.<br>
+Podstawowe zmienne liczbowe w JavaScript to:<br>
+Number -> Typ liczbowy
+<ul>
+	<li><p>zmienna całkowita</p></li>
+	<li><p>zmiennoprzecinkowa</p></li>
 </ul>
+String -> Typ tekstowy<br>
+Boolea -> Typ logiczny<br>
+Null -> Pusta zawartość<br>
+Undefined -> Typ niezidentyfikowany<br>
+Object -> Obiekt</li>
+<li><b>Przy nadawaniu nazw zmiennym należy przestrzegać pewnych zasad:</b><br>
+<ul>
+
+</ul></li>
+</ol>
 <form>
 	<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
 </form>
