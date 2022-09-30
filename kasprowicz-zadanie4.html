@@ -1,8 +1,17 @@
 <html>
 <head>
   <script type="text/javascript"> function show_alert() { alert("Uwaga!"); } </script>
+  <script language="JavaScript">
+	function okno_zamknij_kasprowicz()	
+		{
+		window.close()
+		}
+	</script>
 </head>
 <body>
   <input type="button" onclick="show_alert()" value="Pokaż Alert Box" />
+  <form>
+	<input type="button" value="zamknij okno" onclick="okno_zamknij_kasprowicz()"/>
+</form>
 </body>
 </html>
