@@ -7,8 +7,10 @@
     var ilosc_sekund_kas;
     var D1_kas=parseFloat(dzień1);
     var D2_kas=parseFloat(dzień2);
-      ilosc_sekund_kas=(D1-D2)*24*3600;
+      ilosc_sekund_kas=(D1_kas-D2_kas)*24*3600;
       document.write("sekundy="+ilosc_sekund_kas+" sekund"+"<br>");
+      document.write("dzień1="+D1_kas+" dni"+"<br>");
+      document.write("dzień2="+D2_kas+" dni"+"<br>");
   </script>
 </div>
 </body>
