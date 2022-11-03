@@ -1,0 +1,46 @@
+<textarea cols=170 rows=45>
+<html>
+<head>
+</head>
+<body>
+<div style="color:purple;font-size:13mm">
+  <script language="JavaScript">
+    var liczba1=prompt("c=","");
+    var liczba2=prompt("b=","");
+    var c_kas=parseFloat(liczba1);
+    var b_kas=parseFloat(liczba2);
+    
+	document.write("c="+c_kas+" cm"+"<br>");
+    document.write("b="+b_kas+" cm"+"<br>");
+	  a_kas=Math.sqrt(Math.pow(c_kas,2)-Math.pow(b_kas,2));
+    document.write("a="+a_kas.toFixed(2)+" cm"+"<br>");
+	
+	obw_kas=(a_kas+b_kas+c_kas);
+    document.write("Obwod="+obw_kas.toFixed(2)+" cm"+"<br>");
+    
+	P_kas=(a_kas*b_kas)/2;
+    document.write("Pole="+P_kas.toFixed(2)+" cm^2"+"<br>");
+	
+	document.write("h1="+2*P_kas/a_kas+" cm"+"<br>")
+	document.write("h2="+2*P_kas/b_kas+" cm"+"<br>")
+	document.write("h3="+2*P_kas/c_kas+" cm"+"<br>")
+	
+	sin_alfa_kas=b_kas/c_kas;
+    document.write("sin alfa="+sin_alfa_kas.toFixed(3)+"<br>");
+	
+	cos_alfa_kas=a_kas/c_kas;
+	document.write("cos alfa="+cos_alfa_kas.toFixed(3)+"<br>");
+	
+	tg_alfa_kas=a_kas/b_kas;
+	document.write("tg alfa="+tg_alfa_kas.toFixed(3)+"<br>");
+	
+	ctg_alfa_kas=b_kas/a_kas;
+	document.write("ctg alfa="+ctg_alfa_kas.toFixed(3)+"<br>");
+	
+	alfa_kas=Math.asin(b_kas/c_kas)*(180/Math.PI);
+	document.write("alfa="+alfa_kas.toFixed(3)+" st"+"<br>");
+	
+  </script>
+</body>
+</html>
+</textarea>
