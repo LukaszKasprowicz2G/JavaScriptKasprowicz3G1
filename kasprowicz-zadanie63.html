@@ -1,17 +1,24 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
 </head>
 <body>
-<div style="color:red;font-size:50px;">
+<div style="font-size:50px;">
+<p style="color:green"> Menu </p>
+<p style="color:red"> 1 - Czerwony </p>
+<p style="color:blue"> 2 - Niebieski</p>
+<button onclick="wybor()">Wybierz</button>
 <script language="JavaScript">
-var x_kas=prompt("podaj liczbę x=","");
-var a_kas=parseFloat(x_kas);
-document.write("czytana liczba x="+a_kas+"<br>");
-if((a_kas==1)||(a_kas=="czerwony"))
-  {document.write(<font style="color:red; size:7;">"wczytałeś kolor czerwony Kasprowicz"+"</font><br>");}
-if((a_kas==2)||(a_kas=="niebieski"))
-  {document.write(<font style="color:blue; size:1;">"wczytałeś kolor niebieski Kasprowicz"+"</font><br>");}
+function wybor(){
+	var x_kas=prompt("podaj liczbę x=","");
+	var a_kas=parseFloat(x_kas);
+	document.write("czytana liczba x="+a_kas+"<br>");
+	if((a_kas==1)||(a_kas=="czerwony"))
+		{document.write("<font style=color:red; size:7;>wczytałeś kolor czerwony Kasprowicz"+"</font><br>");}
+	if((a_kas==2)||(a_kas=="niebieski"))
+		{document.write("<font style=color:blue; size:1;>wczytałeś kolor niebieski Kasprowicz"+"</font><br>");}
+	}
 </script>
 </div>
 </body>
