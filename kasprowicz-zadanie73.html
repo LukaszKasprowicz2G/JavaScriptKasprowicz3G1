@@ -2,16 +2,25 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
-<title> Zadanie 71 </title>
+<title> Zadanie 73 </title>
 <script language="JavaScript">
-	for(var i=1 ; i<=24 ; i++)
+	var x=prompt("podaj imie","");
+	var x=prompt("podaj nazwisko","");
+	var a=parseFloat(x);
+	var b=parseFloat(y);
+	for(var i=1 ; i<=20 ; i++)
 	{
 		document.write("*");
 	}
 	document.write("<br>")
 	for (var i=1 ; i<=7 ; i++)
 	{
-		document.write("*&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp*");
+		document.write("*");
+		for(var j=1 ; j<=20-2 ; j++)
+		{
+			document.write("&nbsp&nbsp");
+		}
+		document.write("*");
 		document.write("<br>");
 	}
 	for(var i=1 ; i<=20 ; i++)
