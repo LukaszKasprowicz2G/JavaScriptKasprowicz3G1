@@ -5,25 +5,25 @@
 <title> Zadanie 73 </title>
 <script language="JavaScript">
 	var x=prompt("podaj imie","");
-	var x=prompt("podaj nazwisko","");
-	var a=parseFloat(x);
-	var b=parseFloat(y);
-	for(var i=1 ; i<=20 ; i++)
+	var y=prompt("podaj nazwisko","");
+	var lenx=x.length%4+5;
+	var leny=y.length%6+20;
+	for(var i=1 ; i<=leny ; i++)
 	{
 		document.write("*");
 	}
-	document.write("<br>")
-	for (var i=1 ; i<=7 ; i++)
+	document.write("<br>");
+	for (var i=1 ; i<=lenx ; i++)
 	{
 		document.write("*");
-		for(var j=1 ; j<=20-2 ; j++)
+		for(var j=1 ; j<=leny-2 ; j++)
 		{
 			document.write("&nbsp&nbsp");
 		}
 		document.write("*");
 		document.write("<br>");
 	}
-	for(var i=1 ; i<=20 ; i++)
+	for(var i=1 ; i<=leny ; i++)
 	{
 		document.write("*");
 	}
