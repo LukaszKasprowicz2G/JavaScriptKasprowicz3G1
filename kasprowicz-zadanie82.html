@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zadanie 82</title>
+	<meta charset="UTF-8">
+	<script language="JavaScript">
+	function pushbutton() {
+	alert("Czesc !");}
+	</script>
+	<style>
+	.day {
+		color: red;
+	}
+	.month {
+		color: green;
+	}
+	.year {
+		color: blue;
+	}
+	span {
+		font-size: 1cm;
+	}
+	</style>
+</head>
+<body>
+<h1 style="color: red;"> Łukasz Kasprowicz 3G </h1>
+<p style="color: green;"> dzis = new Date() --> uzyskanie daty </p>
+<p style="color: green;"> dzis = dzis.getHours() --> pokazanie aktualnej godziny </p>
+<p style="color: green;"> dzis = dzis.getMinutes() --> pokazanie aktualnej minuty </p>
+<p style="color: green;"> dzis = dzis.getMonth()+1 --> pokazanie aktualnego miesiąca </p>
+<p style="color: green;"> dzis = dzis.getDate() --> pokazanie dzisiejszego dnia </p>
+<p style="color: green;"> dzis = dzis.getFullYear() --> pokazanie aktualnego roku </p>
+Ostatnio zmodyfikowany
+	<script language="LiveScript">
+	document.write(document.lastModified,"<br>")
+	</script>
+<form>
+	<input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form>
+	<script language="JavaScript">
+	dzis = new Date();
+	day = dzis.getDate();
+	month = dzis.getMonth()+1;
+	year = dzis.getFullYear();
+	document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes(),"<br>");
+	document.write("<span class='day'>" + day + ":</span>");
+	document.write("<span class='month'>" + month + ":</span>");
+	document.write("<span class='year'>" + year + "</span>")
+	</script>
+</body>
+</html>
